@@ -1,3 +1,8 @@
+//Time Complexity - O(log n)
+//Space Complexity - O(1) Not using any extra space.
+
+// Implemented using Binary search on a sorted array to find the missing element. The value at each index is index+1 as its sorted.
+// compared difference of value at current index and previous index
 public class FindMissingElement {
 
     public FindMissingElement() {

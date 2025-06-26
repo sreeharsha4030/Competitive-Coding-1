@@ -1,3 +1,7 @@
+//Time Complexity - O(1) for getMin and O(log n) for insert
+//Space Complexity - O(n) Not using any extra space.
+
+// Implemented a MinHeap with arrays
 public class MinHeap {
 
     private int[] heap;
